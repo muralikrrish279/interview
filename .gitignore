@@ -1,0 +1,38 @@
+###
+OneBranch Specific
+###
+
+# Build generated files
+obj/
+bin/
+bin/Debug/
+
+# MSBuild's log file
+msbuild.log
+
+# VSMSBuild generated files
+*.sln
+*.suo
+
+# Build
+*.err
+*.wrn
+*.log
+
+###
+Repository Bloat Risks
+###
+*.exe
+*.dll
+*.lib
+*.pdb
+*.wim
+*.zip
+*.gz
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+

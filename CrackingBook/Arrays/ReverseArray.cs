@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingBook.Microsoft
+namespace CrackingBook.Arrays
 {
-    public class Ms_Array
+    public class ReverseArray
     {
 
-        public T[] Reverse<T>(T[] input) {
-            if (input.Length < 1) {
+        public static T[] Reverse<T>(T[] input)
+        {
+            if (input.Length < 1)
+            {
                 return input;
             }
             var start = 0;
@@ -25,12 +27,12 @@ namespace CrackingBook.Microsoft
             }
             return input;
         }
+     
 
-        public void printArray<T>(T[] input) {
-            foreach (var item in input)
-            {
-                Console.WriteLine(item.ToString());
-            }
-        }
+        //static void Main(string[] args)
+        //{
+        //    var reversed = Reverse(new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
+        //    Utils.ArrayUtil.printArray(reversed);
+        //}
     }
 }

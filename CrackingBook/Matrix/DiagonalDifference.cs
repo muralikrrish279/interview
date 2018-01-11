@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingBook.HackerRank.WarmUp
+namespace CrackingBook.Matrix
 {
     //    Given a square matrix of size, calculate the absolute difference between the sums of its diagonals.
 

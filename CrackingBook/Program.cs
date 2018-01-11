@@ -4,13 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CrackingBook.StringsandArrays;
 using CrackingBook.Recursion;
-using CrackingBook.HackerRank.WarmUp;
-using CrackingBook.HackerRank.WeekoofCode;
-using CrackingBook.HackerRank.Warmup;
 using CrackingBook.HackerRank.Stack;
-using CrackingBook.HackerRank.String;
 using CrackingBook.Amazon.Array;
 using CrackingBook.Amazon.LinkedList;
 using CrackingBook.Utils;
@@ -23,8 +18,8 @@ namespace CrackingBook
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
 
             #region " Others " 
             // ******************** Strings and Arrays *******************************
@@ -159,7 +154,7 @@ namespace CrackingBook
             #region " Microsoft "
 
             #region " String " 
-            var msstring = new MS_String();
+            //var msstring = new MS_String();
             //Console.WriteLine(msstring.BinaryToDecimal("1100", 2));
             //Console.WriteLine(msstring.Reverse("ABCDE"));
             //Console.WriteLine(msstring.OneWayEdit("pale","paless"));
@@ -179,7 +174,7 @@ namespace CrackingBook
             #endregion
 
             #region "  Array "
-            var msArr = new Ms_Array();
+            //var msArr = new Ms_Array();
             //var oup = msArr.Reverse<int>(new int[] { 1, 2, 3, 4, 5, 6, 7, 8 });
             //msArr.printArray<int>(oup);
             #endregion
@@ -260,7 +255,7 @@ namespace CrackingBook
             //root.right.left = new TreeNode<int>(6);
             //root.right.right = new TreeNode<int>(7);
             //msTree.Traverse(root, Traversals.PreOrder);
-            var msTree = new MS_Tree();
+            //var msTree = new MS_Tree();
             //var root = new TreeNode<int>(5);
             //root.left = new TreeNode<int>(3);
             //root.right = new TreeNode<int>(7);
@@ -272,37 +267,37 @@ namespace CrackingBook
             //msTree.BFSTraverse(root);
             //var node = msTree.MinimalTree(new int[] { 1, 2, 3, 4, 5, 6, 7 });
             //msTree.DFSTraverse(node, Traversals.InOrder);
-            var root = new TreeNode<int>(4);
-            root.left = new TreeNode<int>(2);
-            root.right = new TreeNode<int>(7);
-            root.left.left = new TreeNode<int>(1);
-            root.left.right = new TreeNode<int>(3);
-            root.right.left = new TreeNode<int>(6);
-            root.right.right = new TreeNode<int>(9);
-            //var reversed = msTree.InvertBinaryTree(root);
-            //msTree.BFSTraverse(reversed);
-            Console.WriteLine(msTree.MinimalDepth(root));
+            //var root = new TreeNode<int>(4);
+            //root.left = new TreeNode<int>(2);
+            //root.right = new TreeNode<int>(7);
+            //root.left.left = new TreeNode<int>(1);
+            //root.left.right = new TreeNode<int>(3);
+            //root.right.left = new TreeNode<int>(6);
+            //root.right.right = new TreeNode<int>(9);
+            ////var reversed = msTree.InvertBinaryTree(root);
+            ////msTree.BFSTraverse(reversed);
+            //Console.WriteLine(msTree.MinimalDepth(root));
            
             #endregion
 
             #region " Graph "
-            var msGraph = new MS_Graph();
-            var node1 = new GraphNode<int>(1);
-            var node2 = new GraphNode<int>(2);
-            var node3 = new GraphNode<int>(3);
-            var node4 = new GraphNode<int>(4);
-            var node5 = new GraphNode<int>(5);
-            var node0 = new GraphNode<int>(0);
-            node0.adjacent.Add(node1);
-            node0.adjacent.Add(node4);
-            node0.adjacent.Add(node5);
-            node1.adjacent.Add(node4);
-            node1.adjacent.Add(node3);
-            node3.adjacent.Add(node2);
-            node3.adjacent.Add(node3);
-            node2.adjacent.Add(node1);
-            var grph = new Utils.Graph<int>();
-            grph.nodes.Add(node0);
+            //var msGraph = new MS_Graph();
+            //var node1 = new GraphNode<int>(1);
+            //var node2 = new GraphNode<int>(2);
+            //var node3 = new GraphNode<int>(3);
+            //var node4 = new GraphNode<int>(4);
+            //var node5 = new GraphNode<int>(5);
+            //var node0 = new GraphNode<int>(0);
+            //node0.adjacent.Add(node1);
+            //node0.adjacent.Add(node4);
+            //node0.adjacent.Add(node5);
+            //node1.adjacent.Add(node4);
+            //node1.adjacent.Add(node3);
+            //node3.adjacent.Add(node2);
+            //node3.adjacent.Add(node3);
+            //node2.adjacent.Add(node1);
+            //var grph = new Utils.Graph<int>();
+            //grph.nodes.Add(node0);
             //Console.WriteLine(msGraph.RouteBetweenNode(grph, node2, node5));
         }
             #endregion
@@ -319,6 +314,6 @@ namespace CrackingBook
         
     
 
-    }
+    //}
 }
 
