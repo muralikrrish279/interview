@@ -27,9 +27,9 @@ namespace CrackingBook.Strings
             return countodd <= 1;
         }
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Check("LEVEL"));
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine(Check("LEVEL"));
+        //}
     }
 }
