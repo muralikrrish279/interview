@@ -10,11 +10,11 @@ namespace CrackingBook.Arrays
     //https://www.geeksforgeeks.org/a-product-array-puzzle/
     public class ProductArray
     {
-        static void Main(string[] args)
-        {
-            var intArr = new int[] { 10,3,5,6,2 };
-            PrintProductArray(intArr);
-        }
+        //static void Main(string[] args)
+        //{
+        //    var intArr = new int[] { 10,3,5,6,2 };
+        //    PrintProductArray(intArr);
+        //}
 
         static void PrintProductArray(int[] input)
         {

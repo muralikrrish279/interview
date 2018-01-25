@@ -4,15 +4,15 @@ using System.Collections.Generic;
 public class UniqueRows
 {
     //https://www.geeksforgeeks.org/print-unique-rows/
-    public static void Main(string[] args)
-    {
-        UniqueRowsFind(new int[][] {
-            new int[]{1,0,0,0},
-            new int[]{0,0,0,0},
-            new int[]{0,1,0,0},
-            new int[]{0,0,0,0}
-            });
-    }
+    //public static void Main(string[] args)
+    //{
+    //    UniqueRowsFind(new int[][] {
+    //        new int[]{1,0,0,0},
+    //        new int[]{0,0,0,0},
+    //        new int[]{0,1,0,0},
+    //        new int[]{0,0,0,0}
+    //        });
+    //}
 
 
     public static void UniqueRowsFind(int[][] m){
@@ -33,7 +33,7 @@ public class UniqueRows
 
         foreach (var item in dict)
         {
-            var arr = item.Key.Split("");
+            var arr = item.Key.Split(' ');
             foreach (var num in arr)
             {
                 Console.Write(num);

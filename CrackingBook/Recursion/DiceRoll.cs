@@ -4,11 +4,11 @@ using System.Collections.Generic;
 
     class DiceRoll
     {
-        static void Main(string[] args)
-        {
-            //diceRolls(3);
-            diceRolls(3, 10);
-        }        
+        //static void Main(string[] args)
+        //{
+        //    //diceRolls(3);
+        //    diceRolls(3, 10);
+        //}        
 
         static void diceRolls(int dice, int faceTotal = 0)
         {
