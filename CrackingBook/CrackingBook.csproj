@@ -45,6 +45,10 @@
   <ItemGroup>
     <Compile Include="Amazon\LinkedList\AMZ_LNK_LST_ALL.cs" />
     <Compile Include="Amazon\Array\AMZ_ARR_ALL.cs" />
+    <Compile Include="Arrays\ProductArray.cs" />
+    <Compile Include="Arrays\MinDistance.cs" />
+    <Compile Include="Arrays\MinAvgSubArray.cs" />
+    <Compile Include="Arrays\LargeSumInConArray.cs" />
     <Compile Include="Arrays\FindOrderBreaker.cs" />
     <Compile Include="Arrays\FindMinRotatedArray.cs" />
     <Compile Include="Arrays\ReverseArray.cs" />
@@ -54,6 +58,9 @@
     <Compile Include="Microsoft\MS_Tree.cs" />
     <Compile Include="Microsoft\OOPS\StockMarket.cs" />
     <Compile Include="Strings\IsPalindromePermutation.cs" />
+    <Compile Include="Strings\ReverseInteger.cs" />
+    <Compile Include="Strings\TwoSumTarget.cs" />
+    <Compile Include="TemplateClass.cs" />
     <Compile Include="Utils\Array.cs" />
     <Compile Include="Utils\LinkedList.cs" />
     <Compile Include="Stack\MatchingBrackets.cs" />
