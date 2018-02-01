@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Amazon\Array\AMZ_ARR_ALL.cs" />
     <Compile Include="Arrays\Anagrams.cs" />
+    <Compile Include="Arrays\BinarySearch.cs" />
     <Compile Include="Arrays\ProductArray.cs" />
     <Compile Include="Arrays\MinDistance.cs" />
     <Compile Include="Arrays\MinAvgSubArray.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Arrays\FindMinRotatedArray.cs" />
     <Compile Include="Arrays\RearrangeZeros.cs" />
     <Compile Include="Arrays\ReverseArray.cs" />
+    <Compile Include="LinkedList\ReversePrintUsingStack.cs" />
     <Compile Include="LinkedList\MergeList.cs" />
     <Compile Include="LinkedList\FindLoop.cs" />
     <Compile Include="Matrix\FillBooleanArray.cs" />

@@ -22,16 +22,21 @@ namespace CrackingBook
                 }
 
             }
+            var dummyStack = new Stack<char>();
+            while (stck.Count > 0)
+            {
+                dummyStack.Push(stck.Pop());
+            }
             var output = "";
-            while (stck.Count > 0) {
-                output += stck.Pop();
+            while (dummyStack.Count > 0) {
+                output += dummyStack.Pop();
             }
             Console.WriteLine(output);
         }
 
-        static void Main(string[] args)
-        {
-            uniq("aaabbcccddCaaa"); //output -> "acCa"
-        }
+        //static void Main(string[] args)
+        //{
+        //    uniq("aaabbcccddCaaa"); //output -> "acCa"
+        //}
     }
 }
