@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingBook.Arrays
+namespace CrackingBook
 {
     class MaxSubArray   
     {
 
         public static void find()
         {
-            string[] arr_temp = Console.ReadLine().Split(' ');
-            int[] arr = Array.ConvertAll(arr_temp, Int32.Parse);
+            int[] arr = new int[] { -2, -5, 6, -2, -3, 1, 5, -6 };
             int max_current = arr[0];
             int max_global = arr[0];
 
@@ -27,9 +26,9 @@ namespace CrackingBook.Arrays
 
         }
 
-        //static void Main(string[] args)
-        //{
-        //    find();
-        //}
+        static void Main(string[] args)
+        {
+            find();
+        }
     }
 }

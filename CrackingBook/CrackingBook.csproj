@@ -54,12 +54,14 @@
     <Compile Include="Arrays\FindMinRotatedArray.cs" />
     <Compile Include="Arrays\RearrangeZeros.cs" />
     <Compile Include="Arrays\ReverseArray.cs" />
+    <Compile Include="DynamicProgramming\WordBreak.cs" />
     <Compile Include="LinkedList\ReversePrintUsingStack.cs" />
     <Compile Include="LinkedList\MergeList.cs" />
     <Compile Include="LinkedList\FindLoop.cs" />
     <Compile Include="Matrix\FillBooleanArray.cs" />
     <Compile Include="Matrix\FindinSorted.cs" />
     <Compile Include="Matrix\FindWord.cs" />
+    <Compile Include="Matrix\MinimumCost.cs" />
     <Compile Include="Matrix\ShortestPathMatrix.cs" />
     <Compile Include="Matrix\UniqueRows.cs" />
     <Compile Include="Microsoft\MS_Dyn_Prog.cs" />
