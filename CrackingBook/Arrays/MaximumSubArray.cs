@@ -11,7 +11,7 @@ namespace CrackingBook
 
         public static void find()
         {
-            int[] arr = new int[] { -2, -5, 6, -2, -3, 1, 5, -6 };
+            int[] arr = new int[] { -2, -5, 6, -2, -3, 1, 5, -6 }; //answer must be 7
             int max_current = arr[0];
             int max_global = arr[0];
 
@@ -26,9 +26,9 @@ namespace CrackingBook
 
         }
 
-        static void Main(string[] args)
-        {
-            find();
-        }
+        //static void Main(string[] args)
+        //{
+        //    find();
+        //}
     }
 }

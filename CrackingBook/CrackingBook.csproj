@@ -46,6 +46,7 @@
     <Compile Include="Amazon\Array\AMZ_ARR_ALL.cs" />
     <Compile Include="Arrays\Anagrams.cs" />
     <Compile Include="Arrays\BinarySearch.cs" />
+    <Compile Include="Arrays\LeadersinArray.cs" />
     <Compile Include="Arrays\ProductArray.cs" />
     <Compile Include="Arrays\MinDistance.cs" />
     <Compile Include="Arrays\MinAvgSubArray.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Matrix\FillBooleanArray.cs" />
     <Compile Include="Matrix\FindinSorted.cs" />
     <Compile Include="Matrix\FindWord.cs" />
+    <Compile Include="Matrix\MinEditDistance.cs" />
     <Compile Include="Matrix\MinimumCost.cs" />
     <Compile Include="Matrix\ShortestPathMatrix.cs" />
     <Compile Include="Matrix\UniqueRows.cs" />
@@ -71,6 +73,7 @@
     <Compile Include="Microsoft\OOPS\StockMarket.cs" />
     <Compile Include="Recursion\DiceRoll.cs" />
     <Compile Include="Recursion\PrintBinaryNumbers.cs" />
+    <Compile Include="Sorting\Quicksort.cs" />
     <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Strings\IsPalindromePermutation.cs" />
     <Compile Include="Strings\ReverseInteger.cs" />
