@@ -2,6 +2,9 @@
 OneBranch Specific
 ###
 
+# Build generated files
+obj/
+bin/
 
 # MSBuild's log file
 msbuild.log
