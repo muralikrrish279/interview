@@ -1,6 +1,1 @@
-D:\Murali\mine\CrackingBook\bin\Debug\CrackingBook.exe.config
-D:\Murali\mine\CrackingBook\bin\Debug\CrackingBook.exe
-D:\Murali\mine\CrackingBook\bin\Debug\CrackingBook.pdb
-D:\Murali\mine\CrackingBook\obj\Debug\CrackingBook.csprojResolveAssemblyReference.cache
-D:\Murali\mine\CrackingBook\obj\Debug\CrackingBook.exe
-D:\Murali\mine\CrackingBook\obj\Debug\CrackingBook.pdb
+D:\Murali\Interview\interview\CrackingBook\bin\Debug\CrackingBook.exe.config
