@@ -2,10 +2,6 @@
 OneBranch Specific
 ###
 
-# Build generated files
-obj/
-bin/
-bin/Debug/
 
 # MSBuild's log file
 msbuild.log
@@ -18,6 +14,10 @@ msbuild.log
 *.err
 *.wrn
 *.log
+*.exe
+*.cache
+*.txt
+*.pdb
 
 ###
 Repository Bloat Risks

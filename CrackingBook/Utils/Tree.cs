@@ -28,7 +28,8 @@ namespace CrackingBook.Utils
             data = input;
             left = right = null;
         }
-        
+
+       
     }
     
 }

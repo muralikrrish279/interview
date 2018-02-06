@@ -82,6 +82,11 @@
     <Compile Include="Strings\TwoSumTarget.cs" />
     <Compile Include="Practice1.cs" />
     <Compile Include="TemplateClass.cs" />
+    <Compile Include="Trees\DeleteNode.cs" />
+    <Compile Include="Trees\ReverserOrderTraversal.cs" />
+    <Compile Include="Trees\Traversal.cs" />
+    <Compile Include="Trees\DiagonalTraversal.cs" />
+    <Compile Include="Trees\LCAInBST.cs" />
     <Compile Include="Utils\Array.cs" />
     <Compile Include="Utils\LinkedList.cs" />
     <Compile Include="Stack\MatchingBrackets.cs" />

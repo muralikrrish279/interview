@@ -4,16 +4,16 @@ using System.Collections.Generic;
 
 class QuickSort
 {
-    static void Main(string[] args)
-    {
-        var arr = new int[] { 0, 7, 8, 9, 1, 5 };
-        QuickSort1(arr, 0, arr.Length - 1);
+    //static void Main(string[] args)
+    //{
+    //    var arr = new int[] { 0, 7, 8, 9, 1, 5 };
+    //    QuickSort1(arr, 0, arr.Length - 1);
 
-        foreach (var item in arr)
-        {
-            Console.WriteLine(item);
-        }
-    }
+    //    foreach (var item in arr)
+    //    {
+    //        Console.WriteLine(item);
+    //    }
+    //}
 
     static void QuickSort1(int[] arr, int low, int high)
     {
