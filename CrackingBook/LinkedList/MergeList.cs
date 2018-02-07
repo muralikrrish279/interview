@@ -9,30 +9,31 @@ namespace CrackingBook
 {
     public class MergeList
     {
-        public static void MergeListLink(SinglyLinkedListNode<int> node1, SinglyLinkedListNode<int> node2)
+        public static SinglyLinkedListNode<int> MergeListLink(SinglyLinkedListNode<int> node1, SinglyLinkedListNode<int> node2)
         {
-            SinglyLinkedListNode<int> p = node1;
-            SinglyLinkedListNode<int> q = node2;
-            SinglyLinkedListNode<int> n1Next = null;
-            SinglyLinkedListNode<int> n2Next = null;
-            if (p == null && q == null)
+            SinglyLinkedListNode<int> result = null;
+            if (node1 == null && node2 == null)
             {
-                return;
+                return null;
+            }
+            if (node1 == null) {
+                return node2;
+            }
+            if (node2 == null)
+            {
+                return node1;
             }
 
-            while (p != null && q != null)
+            if (node1.Data < node2.Data)
             {
-                n1Next = p.Next;
-                n2Next = q.Next;
-
-                p.Next = q;
-                q.Next = n1Next;
-
-                p = n1Next;
-                q = n2Next;
+                result = node1;
+                result.Next = MergeListLink(node1.Next, node2);
             }
-
-            q.Print();
+            else {
+                result = node2;
+                result.Next = MergeListLink(node1, node2.Next);
+            }
+            return result;
         }
 
         //static void Main(string[] args)
@@ -40,14 +41,15 @@ namespace CrackingBook
         //    var list = new MyLinkedList<int>(new SinglyLinkedListNode<int>(1));
         //    list.head.Next = new SinglyLinkedListNode<int>(2);
         //    list.head.Next.Next = new SinglyLinkedListNode<int>(3);
-        //    list.head.Next.Next.Next = new SinglyLinkedListNode<int>(4);
+        //    list.head.Next.Next.Next = new SinglyLinkedListNode<int>(7);
 
-        //    var list2 = new MyLinkedList<int>(new SinglyLinkedListNode<int>(5));
-        //    list2.head.Next = new SinglyLinkedListNode<int>(6);
-        //    list2.head.Next.Next = new SinglyLinkedListNode<int>(7);
+        //    var list2 = new MyLinkedList<int>(new SinglyLinkedListNode<int>(4));
+        //    list2.head.Next = new SinglyLinkedListNode<int>(5);
+        //    list2.head.Next.Next = new SinglyLinkedListNode<int>(6);
         //    list2.head.Next.Next.Next = new SinglyLinkedListNode<int>(8);
 
-        //    MergeListLink(list.head, list2.head);
+        //    var output = MergeListLink(list.head, list2.head);
+        //    output.Print();
         //}
     }
 }

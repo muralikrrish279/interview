@@ -47,6 +47,7 @@
     <Compile Include="Arrays\Anagrams.cs" />
     <Compile Include="Arrays\BinarySearch.cs" />
     <Compile Include="Arrays\LeadersinArray.cs" />
+    <Compile Include="Arrays\IsSubArray.cs" />
     <Compile Include="Arrays\ProductArray.cs" />
     <Compile Include="Arrays\MinDistance.cs" />
     <Compile Include="Arrays\MinAvgSubArray.cs" />
@@ -82,7 +83,9 @@
     <Compile Include="Strings\TwoSumTarget.cs" />
     <Compile Include="Practice1.cs" />
     <Compile Include="TemplateClass.cs" />
+    <Compile Include="Trees\SeralizeDeserialize.cs" />
     <Compile Include="Trees\DeleteNode.cs" />
+    <Compile Include="Trees\BSTFromPreorder.cs" />
     <Compile Include="Trees\ReverserOrderTraversal.cs" />
     <Compile Include="Trees\Traversal.cs" />
     <Compile Include="Trees\DiagonalTraversal.cs" />

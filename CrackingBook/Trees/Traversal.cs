@@ -37,13 +37,13 @@ namespace CrackingBook
             }
         }
 
-        public static void BFSTraverse(TreeNode<int> node) //Level Order Traversal
+        public static void BFSTraverse<T>(TreeNode<T> node) //Level Order Traversal
         {
             if (node == null)
             {
                 return;
             }
-            var queu = new Utils.Queue<TreeNode<int>>();
+            var queu = new Utils.Queue<TreeNode<T>>();
             queu.EnQueue(node);
 
             while (!queu.IsEmpty())
