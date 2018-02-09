@@ -46,6 +46,7 @@
     <Compile Include="Amazon\Array\AMZ_ARR_ALL.cs" />
     <Compile Include="Arrays\Anagrams.cs" />
     <Compile Include="Arrays\BinarySearch.cs" />
+    <Compile Include="Arrays\MergeSortedArray.cs" />
     <Compile Include="Arrays\StockSellBuy.cs" />
     <Compile Include="Arrays\LeadersinArray.cs" />
     <Compile Include="Arrays\IsSubArray.cs" />
@@ -84,6 +85,8 @@
     <Compile Include="Strings\TwoSumTarget.cs" />
     <Compile Include="Practice1.cs" />
     <Compile Include="TemplateClass.cs" />
+    <Compile Include="Trees\IsSubTree.cs" />
+    <Compile Include="Trees\WordSearch.cs" />
     <Compile Include="Trees\SeralizeDeserialize.cs" />
     <Compile Include="Trees\DeleteNode.cs" />
     <Compile Include="Trees\BSTFromPreorder.cs" />
@@ -120,6 +123,7 @@
     <Compile Include="Utils\Queue.cs" />
     <Compile Include="Utils\Stack.cs" />
     <Compile Include="Utils\Graph.cs" />
+    <Compile Include="Utils\Trie.cs" />
     <Compile Include="Utils\Tree.cs" />
   </ItemGroup>
   <ItemGroup>

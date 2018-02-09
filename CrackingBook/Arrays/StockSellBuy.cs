@@ -13,10 +13,10 @@ namespace CrackingBook.Arrays
             public int buy;
             public int sell;
         }
-        static void Main(string[] args)
-        {
-            FindDays(new int[] { 180, 100, 260, 310, 40, 535, 600 });
-        }
+        //static void Main(string[] args)
+        //{
+        //    FindDays(new int[] { 180, 100, 260, 310, 40, 535, 600 });
+        //}
 
         static void FindDays(int[] arr)
         {
