@@ -69,6 +69,7 @@
     <Compile Include="Matrix\MinEditDistance.cs" />
     <Compile Include="Matrix\MinimumCost.cs" />
     <Compile Include="Matrix\ShortestPathMatrix.cs" />
+    <Compile Include="Matrix\TicTacToeWin.cs" />
     <Compile Include="Matrix\UniqueRows.cs" />
     <Compile Include="Microsoft\MS_Dyn_Prog.cs" />
     <Compile Include="Microsoft\MS_Graph.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Strings\IsPalindromePermutation.cs" />
     <Compile Include="Strings\ReverseInteger.cs" />
     <Compile Include="Strings\StringCompression.cs" />
+    <Compile Include="Strings\WordLadder.cs" />
     <Compile Include="Strings\UniqueVariation.cs" />
     <Compile Include="Strings\TwoSumTarget.cs" />
     <Compile Include="Practice1.cs" />

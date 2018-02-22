@@ -52,32 +52,32 @@ namespace CrackingBook
             Console.WriteLine("No Intersection");
         }
 
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
             
-            var list1 = new MyLinkedList<int>(new SinglyLinkedListNode<int>(1));
-            list1.head.Next = new SinglyLinkedListNode<int>(2);
-            list1.head.Next.Next = new SinglyLinkedListNode<int>(3);
-            list1.head.Next.Next.Next = new SinglyLinkedListNode<int>(4);
-            list1.head.Next.Next.Next.Next = new SinglyLinkedListNode<int>(5);
-            list1.head.Next.Next.Next.Next.Next = new SinglyLinkedListNode<int>(6);
-            var node7 = new SinglyLinkedListNode<int>(7);
-            var node8 = new SinglyLinkedListNode<int>(8);
-            var node9 = new SinglyLinkedListNode<int>(9);
-            list1.head.Next.Next.Next.Next.Next.Next = node7;
-            list1.head.Next.Next.Next.Next.Next.Next.Next = node8;
-            list1.head.Next.Next.Next.Next.Next.Next.Next.Next = node9;
+        //    var list1 = new MyLinkedList<int>(new SinglyLinkedListNode<int>(1));
+        //    list1.head.Next = new SinglyLinkedListNode<int>(2);
+        //    list1.head.Next.Next = new SinglyLinkedListNode<int>(3);
+        //    list1.head.Next.Next.Next = new SinglyLinkedListNode<int>(4);
+        //    list1.head.Next.Next.Next.Next = new SinglyLinkedListNode<int>(5);
+        //    list1.head.Next.Next.Next.Next.Next = new SinglyLinkedListNode<int>(6);
+        //    var node7 = new SinglyLinkedListNode<int>(7);
+        //    var node8 = new SinglyLinkedListNode<int>(8);
+        //    var node9 = new SinglyLinkedListNode<int>(9);
+        //    list1.head.Next.Next.Next.Next.Next.Next = node7;
+        //    list1.head.Next.Next.Next.Next.Next.Next.Next = node8;
+        //    list1.head.Next.Next.Next.Next.Next.Next.Next.Next = node9;
 
 
-            var list2 = new MyLinkedList<int>(new SinglyLinkedListNode<int>(5));
-            list2.head.Next = new SinglyLinkedListNode<int>(6);
-            //list2.head.Next.Next = node7;
-            //list2.head.Next.Next.Next = node8;
-            //list2.head.Next.Next.Next.Next = node9;
-            list2.head.Next.Next = new SinglyLinkedListNode<int>(7);
-            list2.head.Next.Next.Next = new SinglyLinkedListNode<int>(8);
-            list2.head.Next.Next.Next.Next = new SinglyLinkedListNode<int>(9);
-            findInterSection(list1.head,list2.head);
-        }
+        //    var list2 = new MyLinkedList<int>(new SinglyLinkedListNode<int>(5));
+        //    list2.head.Next = new SinglyLinkedListNode<int>(6);
+        //    //list2.head.Next.Next = node7;
+        //    //list2.head.Next.Next.Next = node8;
+        //    //list2.head.Next.Next.Next.Next = node9;
+        //    list2.head.Next.Next = new SinglyLinkedListNode<int>(7);
+        //    list2.head.Next.Next.Next = new SinglyLinkedListNode<int>(8);
+        //    list2.head.Next.Next.Next.Next = new SinglyLinkedListNode<int>(9);
+        //    findInterSection(list1.head,list2.head);
+        //}
     }
 }
