@@ -49,7 +49,7 @@ namespace CrackingBook.Matrix
             for (int a_i = 0; a_i < n; a_i++)
             {
                 string[] a_temp = Console.ReadLine().Split(' ');
-                a[a_i] = Array.ConvertAll(a_temp, Int32.Parse);
+                a[a_i] = System.Array.ConvertAll(a_temp, Int32.Parse);
             }
             int firstDiagonal = 0;
             int secondDiagonal = 0;

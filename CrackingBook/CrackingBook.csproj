@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Amazon\Array\AMZ_ARR_ALL.cs" />
+    <Compile Include="Arrays\Duplicates.cs" />
     <Compile Include="Arrays\Anagrams.cs" />
     <Compile Include="Arrays\BinarySearch.cs" />
+    <Compile Include="Arrays\CountZeros.cs" />
     <Compile Include="Arrays\MergeSortedArray.cs" />
+    <Compile Include="Arrays\CountTriplets.cs" />
     <Compile Include="Arrays\StockSellBuy.cs" />
     <Compile Include="Arrays\LeadersinArray.cs" />
     <Compile Include="Arrays\IsSubArray.cs" />
@@ -71,11 +73,14 @@
     <Compile Include="Matrix\ShortestPathMatrix.cs" />
     <Compile Include="Matrix\TicTacToeWin.cs" />
     <Compile Include="Matrix\UniqueRows.cs" />
-    <Compile Include="Microsoft\MS_Dyn_Prog.cs" />
-    <Compile Include="Microsoft\MS_Graph.cs" />
-    <Compile Include="Microsoft\MS_Stk_Que.cs" />
-    <Compile Include="Microsoft\MS_Tree.cs" />
-    <Compile Include="Microsoft\OOPS\StockMarket.cs" />
+    <Compile Include="DynamicProgramming\MagicIndex.cs" />
+    <Compile Include="Trees\BSTInsert.cs" />
+    <Compile Include="Trees\InvertBinaryTree.cs" />
+    <Compile Include="Trees\MinimalDepth.cs" />
+    <Compile Include="Trees\MinimalTree.cs" />
+    <Compile Include="Trees\RouteBetweenTwoNode.cs" />
+    <Compile Include="Trees\IsBalanced.cs" />
+    <Compile Include="OOD\StockMarket.cs" />
     <Compile Include="Recursion\DiceRoll.cs" />
     <Compile Include="Recursion\PrintBinaryNumbers.cs" />
     <Compile Include="Sorting\Quicksort.cs" />
@@ -101,13 +106,13 @@
     <Compile Include="Utils\LinkedList.cs" />
     <Compile Include="Stack\MatchingBrackets.cs" />
     <Compile Include="Stack\MaxStack - Copy.cs" />
-    <Compile Include="Strings\AllInOne.cs" />
+    <Compile Include="Strings\HackerRank.cs" />
     <Compile Include="Arrays\MinMax.cs" />
     <Compile Include="Arrays\TallestCandles.cs" />
     <Compile Include="Matrix\DiagonalDifference.cs" />
     <Compile Include="Strings\Minseries.cs" />
     <Compile Include="LinkedList\MustKnow.cs" />
-    <Compile Include="Microsoft\String\MS_String.cs" />
+    <Compile Include="Strings\ZerosAndOnesWithNext.cs" />
     <Compile Include="OOD\UberFood.cs" />
     <Compile Include="Recursion\Permutations.cs" />
     <Compile Include="Stack\StackInArray.cs" />

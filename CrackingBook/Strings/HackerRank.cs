@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingBook.Strings
+namespace CrackingBook
 {
-    public class AllInOne
+    public class HackerRank
     {
 
         //https://www.hackerrank.com/challenges/reduced-string/problem
@@ -28,7 +28,7 @@ namespace CrackingBook.Strings
                 }
             }
             char[] reversed = stck.ToArray();
-            Array.Reverse(reversed);
+            System.Array.Reverse(reversed);
             var sb = new StringBuilder();
             for (int i = 0; i < reversed.Length; i++)
             {

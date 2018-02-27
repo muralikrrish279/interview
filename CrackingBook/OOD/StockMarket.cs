@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingBook.Microsoft.OOPS
+namespace CrackingBook.OOD
 {
     public interface ISubject
     {

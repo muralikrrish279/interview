@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using CrackingBook.Utils;
 
-namespace CrackingBook.Microsoft
+namespace CrackingBook
 {
-    public class MS_Graph
+    public class RouteBetweenNode
     {
-        public bool RouteBetweenNode(Graph<int> grph, GraphNode<int> start, GraphNode<int> end) {
+        public bool Route(Graph<int> grph, GraphNode<int> start, GraphNode<int> end) {
             if (grph == null || start == null || end == null) {
                 return false;
             }

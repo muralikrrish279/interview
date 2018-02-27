@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingBook.Microsoft
+namespace CrackingBook
 {
-    public class MS_Dyn_Prog
+    public class MagicIndex
     {
         //Find a magic index A[i] = i in a sorted interger array
         //Sub : Problem - what is values are not unique
-        public int MagicIndex(int[] input, bool IsArrayUnique)
+        public int MagicIndex1(int[] input, bool IsArrayUnique)
         {
             if (input != null && input.Length < 0)
             {

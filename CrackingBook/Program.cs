@@ -5,12 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CrackingBook.Recursion;
-using CrackingBook.HackerRank.Stack;
-using CrackingBook.Amazon.Array;
+using CrackingBook.Stack;
 using CrackingBook.Utils;
 using CrackingBook;
-using CrackingBook.Microsoft.String;
-using CrackingBook.Microsoft;
 using System.Threading;
 
 namespace CrackingBook

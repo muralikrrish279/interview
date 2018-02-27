@@ -40,7 +40,7 @@ namespace CrackingBook.Arrays
         {
             int n = Convert.ToInt32(Console.ReadLine());
             string[] height_temp = Console.ReadLine().Split(' ');
-            int[] height = Array.ConvertAll(height_temp, Int32.Parse);
+            int[] height = System.Array.ConvertAll(height_temp, Int32.Parse);
           
             if (n < 1 || n > Math.Pow(10,5)) {
                 Console.WriteLine("invalid input");

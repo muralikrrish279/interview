@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrackingBook.HackerRank.Stack
+namespace CrackingBook.Stack
 {
     public class MatchingBrackets
     {
