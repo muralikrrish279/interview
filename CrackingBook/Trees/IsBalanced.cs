@@ -27,7 +27,7 @@ namespace CrackingBook.Microsoft
             lh = Height(Root.left);
             rh = Height(Root.right);
 
-            if (Math.Abs(rh - lh) <= 1 && IsBalanced(Root.left) && IsBalanced(Root.right))
+            if (Math.Abs(rh - lh) <= 1 && IsBalanced1(Root.left) && IsBalanced1(Root.right))
             {
                 return true;
             }
