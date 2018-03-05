@@ -20,7 +20,7 @@ namespace CrackingBook.Recursion
         {
 
             var dire = new System.IO.DirectoryInfo(path);
-
+            var excludeFilters = new string[] { "utils" };
             foreach (var item in dire.GetDirectories())
             {
                 ListCount(item.FullName, ref count);

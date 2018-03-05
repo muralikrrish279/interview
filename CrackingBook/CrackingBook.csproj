@@ -49,6 +49,7 @@
     <Compile Include="Arrays\CountZeros.cs" />
     <Compile Include="Arrays\MergeSortedArray.cs" />
     <Compile Include="Arrays\CountTriplets.cs" />
+    <Compile Include="Arrays\ReverseWords.cs" />
     <Compile Include="Arrays\StockSellBuy.cs" />
     <Compile Include="Arrays\LeadersinArray.cs" />
     <Compile Include="Arrays\IsSubArray.cs" />
@@ -74,6 +75,8 @@
     <Compile Include="Matrix\TicTacToeWin.cs" />
     <Compile Include="Matrix\UniqueRows.cs" />
     <Compile Include="DynamicProgramming\MagicIndex.cs" />
+    <Compile Include="Recursion\ListDirectoryFiles.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Trees\BSTInsert.cs" />
     <Compile Include="Trees\InvertBinaryTree.cs" />
     <Compile Include="Trees\MinimalDepth.cs" />

@@ -38,21 +38,15 @@ class RearrangeZeros
 
        static void RearrangeZerosFront(int[] numbers)
     {
-        int count = numbers.Length - 1;
-
-        for (int i = numbers.Length -1; i >= 0; i--)
+        int zeroCount = 0;
+        for (int i = 0; i < numbers.Length; i++)
         {
-            if (numbers[i] != 0)
+            if (numbers[i] == 0)
             {
-                numbers[count] = numbers[i];
-                count--;
+                zeroCount++;
+                numbers[i] = numbers[zeroCount - 1];
+                numbers[zeroCount - 1] = 0;
             }
-        }
-
-        while (count >= 0 )
-        {
-            numbers[count] = 0;
-            count--;
         }
 
         foreach (var item in numbers)
