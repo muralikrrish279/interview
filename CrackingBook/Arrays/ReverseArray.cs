@@ -17,7 +17,7 @@ namespace CrackingBook.Arrays
             }
             var start = 0;
             var end = input.Length - 1;
-            while (end > 0)
+            while (end > (input.Length - 1)/2)
             {
                 T temp = input[end];
                 input[end] = input[start];
@@ -27,7 +27,7 @@ namespace CrackingBook.Arrays
             }
             return input;
         }
-     
+
 
         //static void Main(string[] args)
         //{

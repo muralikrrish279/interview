@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CrackingBook.Arrays
 {
 
-    //https://www.geeksforgeeks.org/a-product-array-puzzle/
+    //reversing a words in a string
     public class ReverseWords
     {
         //static void Main(string[] args)
