@@ -138,6 +138,7 @@
     <Compile Include="Utils\Trie.cs" />
     <Compile Include="Utils\Tree.cs" />
     <Compile Include="Trees\ListOfDepths.cs" />
+    <Compile Include="Trees\TopologicalSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
