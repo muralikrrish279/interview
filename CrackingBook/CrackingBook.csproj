@@ -139,6 +139,7 @@
     <Compile Include="Utils\Tree.cs" />
     <Compile Include="Trees\ListOfDepths.cs" />
     <Compile Include="Trees\TopologicalSort.cs" />
+    <Compile Include="Trees\InorderSucessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
