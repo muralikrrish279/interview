@@ -137,6 +137,7 @@
     <Compile Include="Utils\Graph.cs" />
     <Compile Include="Utils\Trie.cs" />
     <Compile Include="Utils\Tree.cs" />
+    <Compile Include="Trees\ListOfDepths.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
