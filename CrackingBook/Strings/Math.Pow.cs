@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,10 +38,10 @@ namespace CrackingBook
             }
         }
 
-        static void Main(string[] args)
-        {
-            Console.WriteLine(Power(2234, 4));
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine(Power(2234, 4));
+        //}
 
     }
 }
