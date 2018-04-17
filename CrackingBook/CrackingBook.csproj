@@ -94,7 +94,6 @@
     <Compile Include="Strings\StringCompression.cs" />
     <Compile Include="Strings\WordLadder.cs" />
     <Compile Include="Strings\UniqueVariation.cs" />
-    <Compile Include="Strings\TwoSumTarget.cs" />
     <Compile Include="Practice1.cs" />
     <Compile Include="TemplateClass.cs" />
     <Compile Include="Trees\IsSubTree.cs" />
@@ -129,7 +128,6 @@
     <Compile Include="Strings\Anagram.cs" />
     <Compile Include="Strings\CountCompression.cs" />
     <Compile Include="Strings\ReverseString.cs" />
-    <Compile Include="Strings\RotateMatrix.cs" />
     <Compile Include="Strings\UniquesCharacters.cs" />
     <Compile Include="Trees\CheckBst.cs" />
     <Compile Include="Utils\Queue.cs" />
@@ -141,6 +139,8 @@
     <Compile Include="Trees\TopologicalSort.cs" />
     <Compile Include="Trees\InorderSucessor.cs" />
     <Compile Include="Strings\IsPrime.cs" />
+    <Compile Include="Matrix\RotateMatrix.cs" />
+    <Compile Include="Arrays\TwoSumTarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
