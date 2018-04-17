@@ -140,6 +140,7 @@
     <Compile Include="Trees\ListOfDepths.cs" />
     <Compile Include="Trees\TopologicalSort.cs" />
     <Compile Include="Trees\InorderSucessor.cs" />
+    <Compile Include="Strings\IsPrime.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
