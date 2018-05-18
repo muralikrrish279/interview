@@ -68,7 +68,7 @@
     <Compile Include="LinkedList\FindLoop.cs" />
     <Compile Include="Matrix\FillBooleanArray.cs" />
     <Compile Include="Matrix\FindinSorted.cs" />
-    <Compile Include="Matrix\FindWord.cs" />
+    <Compile Include="Matrix\NoOfIslands.cs" />
     <Compile Include="Matrix\MinEditDistance.cs" />
     <Compile Include="Matrix\MinimumCost.cs" />
     <Compile Include="Matrix\ShortestPathMatrix.cs" />
@@ -141,6 +141,7 @@
     <Compile Include="Strings\IsPrime.cs" />
     <Compile Include="Matrix\RotateMatrix.cs" />
     <Compile Include="Arrays\TwoSumTarget.cs" />
+    <Compile Include="Matrix\FindWord.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
