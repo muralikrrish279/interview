@@ -142,6 +142,7 @@
     <Compile Include="Matrix\RotateMatrix.cs" />
     <Compile Include="Arrays\TwoSumTarget.cs" />
     <Compile Include="Matrix\FindWord.cs" />
+    <Compile Include="Trees\RootToLeafSum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
