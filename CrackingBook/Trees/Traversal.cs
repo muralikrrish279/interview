@@ -9,6 +9,21 @@ namespace CrackingBook
     //Expedia phone round question
     public class Traversal
     {
+
+		//static void Main(string[] args)
+   //     {
+
+   //         var root = new TreeNode<int>(4);
+   //         root.left = new TreeNode<int>(2);
+   //         root.right = new TreeNode<int>(7);
+   //         root.left.left = new TreeNode<int>(1);
+   //         root.left.right = new TreeNode<int>(3);
+   //         root.right.left = new TreeNode<int>(6);
+   //         root.right.right = new TreeNode<int>(9);
+
+			//DFSTraverse(root, Traversals.PreOrder);
+        //}
+
         public static void DFSTraverse(TreeNode<int> node, Traversals type)
         {
             if (node == null)
@@ -21,6 +36,7 @@ namespace CrackingBook
                     Console.WriteLine(node.data);
                     DFSTraverse(node.left, Traversals.PreOrder);
                     DFSTraverse(node.right, Traversals.PreOrder);
+					Console.WriteLine(node.data.ToString() + " Done");
                     break;
                 case Traversals.InOrder:
                     DFSTraverse(node.left, Traversals.InOrder);
