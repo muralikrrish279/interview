@@ -145,6 +145,7 @@
     <Compile Include="Trees\RootToLeafSum.cs" />
     <Compile Include="Trees\TargetSum.cs" />
     <Compile Include="Arrays\SmallestDiff.cs" />
+    <Compile Include="Strings\EnglishInt.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
