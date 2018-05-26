@@ -146,6 +146,7 @@
     <Compile Include="Trees\TargetSum.cs" />
     <Compile Include="Arrays\SmallestDiff.cs" />
     <Compile Include="Strings\EnglishInt.cs" />
+    <Compile Include="Arrays\SubSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
