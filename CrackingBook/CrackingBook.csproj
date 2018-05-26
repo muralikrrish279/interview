@@ -147,6 +147,7 @@
     <Compile Include="Arrays\SmallestDiff.cs" />
     <Compile Include="Strings\EnglishInt.cs" />
     <Compile Include="Arrays\SubSort.cs" />
+    <Compile Include="Matrix\PondSizes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
