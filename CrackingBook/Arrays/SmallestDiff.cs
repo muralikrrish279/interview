@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CrackingBook
 {
+	////Cracking Book - 16.6
     class SmallestDiff
     {
       

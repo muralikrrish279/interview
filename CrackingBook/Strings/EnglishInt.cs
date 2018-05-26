@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CrackingBook
 {
+
+    //Cracking Book - 16.8
     class EnglishInt
     {
 		static string[] smalls = new string[] {
@@ -72,7 +74,7 @@ namespace CrackingBook
 
 		//static void Main(string[] args)
         //{
-        //    Console.WriteLine(convertInt(19234567084));
+        //    Console.WriteLine(convertInt(420));
         //}
     }
 }
