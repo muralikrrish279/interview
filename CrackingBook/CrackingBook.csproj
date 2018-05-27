@@ -149,6 +149,7 @@
     <Compile Include="Arrays\SubSort.cs" />
     <Compile Include="Matrix\PondSizes.cs" />
     <Compile Include="Recursion\PhoneDialPad.cs" />
+    <Compile Include="Arrays\SumSwap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

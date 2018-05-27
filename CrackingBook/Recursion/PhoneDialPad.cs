@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CrackingBook
 {
+	//Cracking book 16.20
 	class PhoneDialPad
 	{
 		private static char[][] dialPadChars = new char[][]{
@@ -55,12 +56,12 @@ namespace CrackingBook
 		}
 
 
-		static void Main(string[] args)
-        {
-			var set = new HashSet<string>() { "tree", "used", "moon" };
-			//Console.WriteLine(ValidWords(8733,set));
-			//Console.WriteLine(ValidWords(6666, set));
-        }
+		//static void Main(string[] args)
+   //     {
+			//var set = new HashSet<string>() { "tree", "used", "moon" };
+			////Console.WriteLine(ValidWords(8733,set));
+			////Console.WriteLine(ValidWords(6666, set));
+        //}
 
       
     }
