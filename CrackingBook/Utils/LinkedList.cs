@@ -28,6 +28,30 @@ namespace CrackingBook.Utils
             Console.WriteLine();
         }
     }
+
+	public class DoublyLinkedListNode<T>
+    {
+        public T Data;
+		public DoublyLinkedListNode<T> Next,Previous;
+
+		public DoublyLinkedListNode(T value)
+        {
+            this.Data = value;
+            this.Next = this.Previous = null;
+        }
+
+        public void Print()
+        {
+            var temp = this;
+            while (temp != null)
+            {
+                Console.Write(temp.Data);
+                temp = temp.Next;
+            }
+            Console.WriteLine();
+        }
+    }
+
     public class MyLinkedList<T>
     {
         public SinglyLinkedListNode<T> head;
