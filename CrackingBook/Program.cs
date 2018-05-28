@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CrackingBook.Recursion;
-using CrackingBook.Stack;
+using CrackingBook.Stacks;
 using CrackingBook.Utils;
 using CrackingBook;
 using System.Threading;

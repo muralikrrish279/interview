@@ -34,10 +34,22 @@ namespace CrackingBook.Utils
             }
             return default(T);
         }
-
+        
         public bool IsEmpty()
         {
             return top == null;
+        }
+
+		public int Count()
+        {
+			var count = 0;
+			var temp = top;
+			while (temp != null)
+            {
+				count++;
+                temp = temp.Next;
+            }
+			return count;
         }
 
         public void Print()

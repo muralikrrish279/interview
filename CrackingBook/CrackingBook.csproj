@@ -150,6 +150,7 @@
     <Compile Include="Matrix\PondSizes.cs" />
     <Compile Include="Recursion\PhoneDialPad.cs" />
     <Compile Include="Arrays\SumSwap.cs" />
+    <Compile Include="Stack\Calculator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
