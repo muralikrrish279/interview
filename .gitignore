@@ -39,3 +39,4 @@ Repository Bloat Risks
 *.userosscache
 *.sln.docstates
 
+*/.vs

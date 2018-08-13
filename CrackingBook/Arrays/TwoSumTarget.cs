@@ -29,7 +29,7 @@ namespace CrackingBook
 
         //static void Main(string[] args)
         //{
-        //    DoWork(new int[] { 3,3}, 6);
+        //    DoWork(new int[] { 3, 3 }, 6);
         //}
     }
 }
