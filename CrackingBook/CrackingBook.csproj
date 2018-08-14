@@ -153,9 +153,11 @@
     <Compile Include="Recursion\PhoneDialPad.cs" />
     <Compile Include="Arrays\SumSwap.cs" />
     <Compile Include="Stack\Calculator.cs" />
+    <Compile Include="Strings\multiplylargenumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Strings\MultiplyLargeNumber.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
