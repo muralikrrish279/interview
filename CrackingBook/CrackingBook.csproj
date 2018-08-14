@@ -75,6 +75,7 @@
     <Compile Include="Matrix\TicTacToeWin.cs" />
     <Compile Include="Matrix\UniqueRows.cs" />
     <Compile Include="DynamicProgramming\MagicIndex.cs" />
+    <Compile Include="Recursion\Factorial.cs" />
     <Compile Include="Recursion\ListDirectoryFiles.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Strings\Math.Pow.cs" />

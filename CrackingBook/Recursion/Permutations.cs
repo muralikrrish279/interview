@@ -9,15 +9,25 @@ namespace CrackingBook.Recursion
     class Permutations
     {
 
-        public List<string> BuildPermutations(string input) //abc
+        //static void Main(string[] args)
+        //{
+        //    var perms = BuildPermutations("abc");
+        //    foreach (var item in perms)
+        //    {
+        //        Console.WriteLine(item);
+        //    }
+        //}
+
+        public static List<string> BuildPermutations(string input) //abc
         {
             List<string> perms = new List<string>();
 
-            if (input.Length == 0) {
+            if (input.Length == 0)
+            {
                 perms.Add("");
                 return perms;
             }
-            string first = input.Substring(0,1); //a
+            string first = input.Substring(0, 1); //a
             string remainder = input.Substring(1); //bc
             var words = BuildPermutations(remainder);
 
@@ -34,4 +44,3 @@ namespace CrackingBook.Recursion
         }
     }
 }
- 

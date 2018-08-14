@@ -14,7 +14,13 @@ namespace CrackingBook.Recursion
         //    var count = 0;
 
         //    ListCount(path, ref count);
+
+        //    Console.WriteLine("Stack added to understand how program Stack execution work");
+        //    while (stack.Count > 0) {
+        //        Console.WriteLine(stack.Pop());
+        //    }
         //}
+        public static Stack<string> stack = new Stack<string>();
 
         static void ListCount(string path, ref int count)
         {
@@ -23,6 +29,7 @@ namespace CrackingBook.Recursion
             var excludeFilters = new string[] { "utils" };
             foreach (var item in dire.GetDirectories())
             {
+                stack.Push(item.Name);
                 ListCount(item.FullName, ref count);
             }
             foreach (var item in dire.GetFiles("*.cs"))
@@ -30,6 +37,7 @@ namespace CrackingBook.Recursion
                 count++;
                 Console.WriteLine(count + " : " + item.Directory.Name + " - " + item.Name);
             }
+
         }
     }
 }
