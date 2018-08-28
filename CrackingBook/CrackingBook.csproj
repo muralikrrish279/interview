@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\MissingNumber.cs" />
     <Compile Include="Arrays\Duplicates.cs" />
     <Compile Include="Arrays\Anagrams.cs" />
     <Compile Include="Arrays\BinarySearch.cs" />
