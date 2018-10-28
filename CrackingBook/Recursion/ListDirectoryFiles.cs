@@ -8,9 +8,9 @@ namespace CrackingBook.Recursion
 {
     class ListDirectoryFiles
     {
-        //static void Main(string[] args)
+        //public static void Main(string[] args)
         //{
-        //    var path = Environment.CurrentDirectory.Replace(@"bin\Debug", "");
+        //    var path = Environment.CurrentDirectory.Replace(@"bin/Debug", "");
         //    var count = 0;
 
         //    ListCount(path, ref count);

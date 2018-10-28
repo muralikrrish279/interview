@@ -9,14 +9,34 @@ namespace CrackingBook.Strings
     class Anagram
     {
 
-        public bool IsAnagram(string s1, string s2)
+        public static bool IsAnagram(string s1, string s2)
         {
-            foreach (var c in s2)
+			if (s1 == null || s2 == null)
             {
-                int index = s1.IndexOf(c);
-                if (index > -1) s1 = s1.Remove(index, 1);
+                return false;
             }
-            return string.IsNullOrEmpty(s1);
+			if(s1.Length != s2.Length){
+				return false;
+			}
+
+			var temp = new int[256];
+            for (int i = 0; i < s1.Length; i++)
+			{
+				temp[s1[i]]++;
+				temp[s2[i]]--;
+			}
+
+			foreach (var item in temp)
+			{
+				if(item > 0){
+					return false;
+				}
+			}
+			return true;
         }
+
+		//static void Main(){
+		//	Console.WriteLine(IsAnagram("LEVEL", "LEVEL"));
+		//}
     }
 }

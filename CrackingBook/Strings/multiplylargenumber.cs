@@ -65,15 +65,15 @@ namespace CrackingBook.Strings
 
 		}
 
-		static void Main(string[] args)
-		{
-			//Test Cases
-			//Console.WriteLine(multiply("123", "32"));
-			//Console.WriteLine(multiply("0", "0"));
-			//Console.WriteLine(multiply("123456789", "123456789123456789123456789"));
-			//Console.WriteLine(multiply("", "32"));
-			//Console.WriteLine(multiply("0000", "000"));
-		}
+		//static void Main(string[] args)
+		//{
+		//	//Test Cases
+		//	//Console.WriteLine(multiply("123", "32"));
+		//	//Console.WriteLine(multiply("0", "0"));
+		//	//Console.WriteLine(multiply("123456789", "123456789123456789123456789"));
+		//	//Console.WriteLine(multiply("", "32"));
+		//	//Console.WriteLine(multiply("0000", "000"));
+		//}
 	}
 
 
