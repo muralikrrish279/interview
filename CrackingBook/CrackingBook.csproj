@@ -79,6 +79,7 @@
     <Compile Include="Recursion\Factorial.cs" />
     <Compile Include="Recursion\ListDirectoryFiles.cs" />
     <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\HeapSort.cs" />
     <Compile Include="Strings\Math.Pow.cs" />
     <Compile Include="Trees\BSTInsert.cs" />
     <Compile Include="Trees\InvertBinaryTree.cs" />

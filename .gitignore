@@ -40,3 +40,4 @@ Repository Bloat Risks
 *.sln.docstates
 
 */.vs
+/.vs
