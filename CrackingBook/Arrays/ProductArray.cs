@@ -12,7 +12,7 @@ namespace CrackingBook.Arrays
     {
         //static void Main(string[] args)
         //{
-        //    var intArr = new int[] { 10,3,5,6,2 };
+        //    var intArr = new int[] { 2,4,6,8 };
         //    PrintProductArray(intArr);
         //}
 

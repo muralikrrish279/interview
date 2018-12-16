@@ -62,6 +62,7 @@
     <Compile Include="Arrays\FindMinRotatedArray.cs" />
     <Compile Include="Arrays\RearrangeZeros.cs" />
     <Compile Include="Arrays\ReverseArray.cs" />
+    <Compile Include="DynamicProgramming\LongestPalindromeSubStr.cs" />
     <Compile Include="DynamicProgramming\WordBreak.cs" />
     <Compile Include="LinkedList\InterSesction.cs" />
     <Compile Include="LinkedList\ReversePrintUsingStack.cs" />
