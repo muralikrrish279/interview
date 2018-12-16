@@ -82,6 +82,7 @@
     <Compile Include="Sorting\BubbleSort.cs" />
     <Compile Include="Sorting\HeapSort.cs" />
     <Compile Include="Strings\Math.Pow.cs" />
+    <Compile Include="Strings\LongestSubstringofVowels.cs" />
     <Compile Include="Trees\BSTInsert.cs" />
     <Compile Include="Trees\InvertBinaryTree.cs" />
     <Compile Include="Trees\MinimalDepth.cs" />

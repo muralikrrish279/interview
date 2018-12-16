@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace CrackingBook
 {
-    //Given a dictionary of words and a string of characters, find if the string of characters can be broken into individual valid words from the dictionary.
-    //Example: 
-    //Dictionary: arrays, dynamic, heaps, IDeserve, learn, learning, linked, list, platform, programming, stacks, trees
-    //String    : IDeservelearningplatform
-    //Output   : true 
-    //Because the string can be broken into valid words: IDeserve learning platform
+   //https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
     public class LongestPalindromeSubString
     {
 
