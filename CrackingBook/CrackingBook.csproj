@@ -63,6 +63,7 @@
     <Compile Include="Arrays\RearrangeZeros.cs" />
     <Compile Include="Arrays\ReverseArray.cs" />
     <Compile Include="DynamicProgramming\LongestPalindromeSubStr.cs" />
+    <Compile Include="DynamicProgramming\OverlappingRects.cs" />
     <Compile Include="DynamicProgramming\WordBreak.cs" />
     <Compile Include="LinkedList\InterSesction.cs" />
     <Compile Include="LinkedList\ReversePrintUsingStack.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Trees\InvertBinaryTree.cs" />
     <Compile Include="Trees\MinimalDepth.cs" />
     <Compile Include="Trees\MinimalTree.cs" />
+    <Compile Include="Trees\MorrisTraversal.cs" />
     <Compile Include="Trees\RouteBetweenTwoNode.cs" />
     <Compile Include="Trees\IsBalanced.cs" />
     <Compile Include="OOD\StockMarket.cs" />
