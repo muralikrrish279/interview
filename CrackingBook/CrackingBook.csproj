@@ -112,6 +112,7 @@
     <Compile Include="Trees\Traversal.cs" />
     <Compile Include="Trees\DiagonalTraversal.cs" />
     <Compile Include="Trees\LCAInBST.cs" />
+    <Compile Include="Utils\MinHeap.cs" />
     <Compile Include="Utils\Array.cs" />
     <Compile Include="Utils\LinkedList.cs" />
     <Compile Include="Stack\MatchingBrackets.cs" />
