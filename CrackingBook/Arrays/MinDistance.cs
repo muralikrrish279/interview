@@ -12,44 +12,40 @@ namespace CrackingBook.Arrays
     {
         //static void Main(string[] args)
         //{
-        //    //var intArr = new int[] { 1, 2, 3, 4, 5, 5, 3, 2, 5 };
-        //    //FindMinDist(intArr, 3, 5);
+        //    var intArr = new int[] { 2, 5, 3, 5, 4, 4, 2, 3 };
+        //    FindMinDist(intArr, 3, 2);
         //}
 
         static void FindMinDist(int[] input, int x, int y)
         {
-            int globalCount = int.MaxValue;
-            int currentCount = 0;
-            int nextNumberToFind = 0;
-
+            var prev = -1;
+            var dist = int.MaxValue;
             for (int i = 0; i < input.Length; i++)
             {
-                
-
-                if (input[i] == nextNumberToFind || input[i] == nextNumberToFind)
-                {
-                    if (globalCount < currentCount)
-                    {
-                        globalCount = currentCount;
-                    }
-                    currentCount = 0;
-                }
-
                 if (input[i] == x || input[i] == y)
                 {
-                    currentCount++;
-                    nextNumberToFind = input[i] == x ? y : x;
+                    prev = i;
+                    break;
                 }
-                else if (currentCount != 0)
+            }
+
+            for (int i = prev + 1; i < input.Length; i++)
+            {
+                if (input[i] == x || input[i] == y)
                 {
-                    currentCount++;
+                    if (input[prev] == input[i])
+                    {
+                        prev = i;
+                    }
+                    else
+                    {
+                        dist = Math.Min(Math.Abs(i - prev), dist);
+                        prev = i;
+                    }
                 }
 
             }
-
-            Console.WriteLine("Min Distance" + globalCount);
-
-
+            Console.WriteLine(dist);
 
         }
     }
